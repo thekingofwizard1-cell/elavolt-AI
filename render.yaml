@@ -3,7 +3,8 @@ services:
     name: elavolt-bot
     env: python@3.11
     plan: free
-    buildCommand: "pip install -r requirements.txt"
+    buildCommand: "pip install --upgrade pip setuptools wheel && pip install -r requirements.txt"
+
     startCommand: "python app.py"
     envVars:
       - key: TELEGRAM_BOT_TOKEN
