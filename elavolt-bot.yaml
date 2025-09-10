@@ -9,12 +9,17 @@ services:
     startCommand: "python app.py"
     envVars:
       - key: TELEGRAM_BOT_TOKEN
+        value: "8352576025:AAHsDJ38nEsYAbmXTe4ZnX5DoIJvCGlIbx0"
         sync: false
       - key: OPENAI_API_KEY
+        value: "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"
         sync: false
       - key: CRYPTO_ADDRESS
+        value: "TQPScdSCCSCt1BzXxXf24uQVKZFKApbJuc"
         sync: false
       - key: CRYPTO_AMOUNT_USD
+        value: "3"
         sync: false
       - key: ADMIN_ID
+        value: "7306811778"
         sync: false
