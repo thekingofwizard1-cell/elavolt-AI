@@ -1,7 +1,7 @@
 services:
   - type: web
     name: elavolt-bot
-    env: python@3.11
+    env: python
     plan: free
     buildCommand: "pip install --upgrade pip setuptools wheel && pip install -r requirements.txt"
 
@@ -22,3 +22,4 @@ services:
       - key: ADMIN_ID
         value: "7306811778"
         sync: false
+          pythonVersion:3.11.6
